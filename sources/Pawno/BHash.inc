@@ -29,7 +29,7 @@ Thanks:
 #if !defined _HASH_SKUZZI
 	#define _HASH_SKUZZI
 	
-	#define hash_length		128
+	#define hash_length		512
 
 	static hash[hash_length + 1], temp;
 
