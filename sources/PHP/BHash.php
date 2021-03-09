@@ -52,7 +52,7 @@ class BHash {
 	}
 
 	public static function hash($text) {
-		$hash_length = 128;
+		$hash_length = 512;
 		$hash = "";
 
 		while(strlen($hash) < $hash_length) 
