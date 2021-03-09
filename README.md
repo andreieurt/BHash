@@ -19,7 +19,7 @@ To use it you need to call `Hash` stock.
 
 new password[32] = "andrewsebastian";
 
-printf(Hash(password)); // The stock Hash returns by default 129 characters, which 128 of them are the hash and the last one is a null char. 
+printf(Hash(password)); // The stock Hash returns by default 513 characters, which 512 of them are the hash and the last one is a null char. 
 ```
 
 The hash of `andrewsebastian` will return `10000110111011001001101001111010011111011111001111010011010001110000111100111001011110010111000011011101110000110111011001001101`
